@@ -2,8 +2,8 @@
 <div class=" no-padding wf-section" *ngFor="let item of productList" >
     <div class="w-dyn-list">
       <div role="list" class="w-dyn-items">
-        <div role="listitem" class="collection-item w-dyn-item" (mouseenter)="onHovering($event,item.id)" (mouseleave)="onUnovering($event,item.id)" id="item-{{item.id}}"><a
-                href="#"[routerLink]="['/single-recipe',1]" class="food-menu w-inline-block">
+        <div role="listitem" class="collection-item w-dyn-item" (mouseenter)="onHovering($event,item.id)" (mouseleave)="onUnovering($event,item.id)" id="item-{{item.id}}" ><a
+                href="#"[routerLink]="['/single-recipe',item.id]" class="food-menu w-inline-block">
                 <div class="container">
                     <div class="flexbox fit d-flex">
                         <div class="food-image-wraper  ">

@@ -25,4 +25,7 @@ export class RecipesComponent implements OnInit {
     var element:any = document.getElementById(`item-${id}`)
     $(element).css("background-color","white");
   }
+
+
+ 
 }
