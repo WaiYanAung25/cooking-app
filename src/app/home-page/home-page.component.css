@@ -1,0 +1,14 @@
+.hero-box {
+
+    background-color:  rgba(232, 214, 196, 0.6);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 80%;
+    padding: 60px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}

@@ -1,0 +1,12 @@
+.navbar-nav{
+    margin-left: auto;
+}
+
+.recipe, .article{
+
+    color: #222222;
+    font-size: 20px;
+
+    text-decoration: underline;
+
+}

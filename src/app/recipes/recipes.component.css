@@ -1,0 +1,178 @@
+
+/* list start */
+.topic-head {
+    margin-top: 20px;
+    font-family: Merriweather, serif;
+    color: #00072d;
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 400;
+}
+.topic-head.food {
+    margin-bottom: 0px;
+    font-size: 48px;
+}
+.collection-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+.food-menu {
+    padding: 60px;
+    text-decoration: none;
+}
+
+.flexbox.fit {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+.saperate._40 {
+    width: 40%;
+}
+.food-image {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    background-image: url(https://uploads-ssl.webflow.com/6268aee6d169cd2b93255c71/627254aafcbd8d3025b61796_GNOCCI-4.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.saperate._60.fit {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}.saperate._60 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 60%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+.menubox {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 0px 0px 0px 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.body.menu {
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+
+
+.flexbox.nutrion-down {
+    margin-top: 20px;
+}
+.nutrion {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 20%;
+    padding: 8px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00072d;
+    border-radius: 20px;
+}
+
+.nutrion-text {
+    font-family: Montserrat, sans-serif;
+    color: #00072d;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.body-bold {
+    font-family: Montserrat, sans-serif;
+    color: #00072d;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.body-bold.num {
+    padding-left: 10px;
+}
+
+
+.food-image-wraper{
+
+    width: 100%;
+}
+
+@media screen and (max-width: 991px){
+
+    .food-image {
+        width: 100%;
+       
+    }
+    .saperate._60 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }   
+}
+
+
+@media screen and (max-width: 767px){
+.food-menu {
+    padding: 0px 0px 0px 40px;
+
+    text-decoration: none;
+}
+
+}
