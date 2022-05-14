@@ -6,7 +6,7 @@ import { BehaviorSubject } from 'rxjs';
 export class DataService {
  
   private products = [
-    { id: 1, name: 'Product A', description: 'This is product A' },
+    { id: 1, name: 'Chorizo & mozzarella gnocchi bake', description: 'This is product A' },
     { id: 2, name: 'Product B', description: 'This is product B' },
     { id: 3, name: 'Product C', description: 'This is product C' },
     { id: 4, name: 'Product D', description: 'This is product D' },

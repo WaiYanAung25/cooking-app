@@ -1,7 +1,8 @@
-<div class="section no-padding wf-section" >
+<!-- we use ng for  loop here -->
+<div class="section no-padding wf-section" *ngFor="let item of productList" >
     <div class="w-dyn-list">
       <div role="list" class="w-dyn-items">
-        <div role="listitem" class="collection-item w-dyn-item" (mouseenter)="onHovering($event,1)" (mouseleave)="onUnovering($event,1)" id="item-1"><a
+        <div role="listitem" class="collection-item w-dyn-item" (mouseenter)="onHovering($event,item.id)" (mouseleave)="onUnovering($event,item.id)" id="item-{{item.id}}"><a
                 href="#"[routerLink]="['/single-recipe',1]" class="food-menu w-inline-block">
                 <div class="container">
                     <div class="flexbox fit d-flex">
@@ -12,8 +13,7 @@
                         <div class="saperate _60 fit">
                             <div class="menubox">
                                 <div>
-                                    <h1 class="w-basic-heading topic-head food">Chorizo &amp; mozzarella gnocchi
-                                        bake</h1>
+                                    <h1 class="w-basic-heading topic-head food">{{item.name}}</h1>
                                     <div class="body menu">Upgrade cheesy tomato pasta with gnocchi, chorizo and
                                         mozzarella for a comforting bake that makes an excellent midweek meal
                                     </div>

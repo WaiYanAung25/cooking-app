@@ -17,12 +17,12 @@ export class RecipesComponent implements OnInit {
  title = 'cooking-app';
   singleRecipe = true
   onHovering(event:any,id:number){
-    var element:any = document.getElementById('item-1')
+    var element:any = document.getElementById(`item-${id}`)
     $(element).css("background-color","rgba(232, 214, 196, 0.6)");
   }
 
   onUnovering(event:any, id:number){
-    var element:any = document.getElementById('item-1')
+    var element:any = document.getElementById(`item-${id}`)
     $(element).css("background-color","white");
   }
 }
