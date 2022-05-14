@@ -1,5 +1,5 @@
 <!-- we use ng for  loop here -->
-<div class="section no-padding wf-section" *ngFor="let item of productList" >
+<div class=" no-padding wf-section" *ngFor="let item of productList" >
     <div class="w-dyn-list">
       <div role="list" class="w-dyn-items">
         <div role="listitem" class="collection-item w-dyn-item" (mouseenter)="onHovering($event,item.id)" (mouseleave)="onUnovering($event,item.id)" id="item-{{item.id}}"><a
